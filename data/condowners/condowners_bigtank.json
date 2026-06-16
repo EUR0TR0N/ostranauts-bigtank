@@ -1,0 +1,102 @@
+[
+  {
+    "strName" : "ItmCanisterLargeLoose",
+    "strNameShort" : "Large Canister",
+    "strNameFriendly" : "Large Canister: Air Liquide \"Bretagne\" (Loose)",
+    "strDesc" : "A large cryo-assisted gas storage tank, developed by European corporation Air Liquide, one of the very few found outside Earth. It has been repurposed to serve space ships.",
+    "strItemDef" : "ItmCanisterLargeLoose",
+    "strType"    : "Item",
+    "aInteractions" : [
+      "DropItem",
+      "PickupItem"
+    ],
+    "aStartingConds" : [
+      "IsFireproof=1.0x1",
+      "IsAirtight=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsCumbersome=1.0x1.0",
+      "IsOversized=1.0x1.0",
+      "IsVesselLarge=1.0x1",
+      "StatBasePrice=1.0x25420.0",
+      "StatGasMolN2=1.0x0.0001",
+      "StatGasPressureMax=1.0x41400.0",
+      "StatGasTemp=1.0x4.00",
+      "StatInstallProgressMax=1.0x800",
+      "StatUninstallProgressMax=1.0x800",
+      "StatVolume=1.0x21.1",
+      "StatMass=1.0x300.0",
+      "IsGasMolChanged=1.0x1",
+      "StatDamageMax=1.0x40",
+      "IsMechanical=1.0x1",
+      "IsCategoryLifeSupport=1.0x1"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTMechDestroy,StatDamageMax,1.0"
+    ],
+    "mapSlotEffects" : [
+      "drag", "Blank"
+    ],
+    "aStartingCondRules"  : [
+      "DcGasTemp=1",
+      "DcGasPressure=1",
+      "DcGasPpCH4=1",
+      "DcGasPpCO=1",
+      "DcGasPpCO2=1",
+      "DcGasPpH2SO4=1",
+      "DcGasPpNH3=1",
+      "DcGasPpN2=1",
+      "DcGasPpO2=1",
+      "DcGasPpSmoke=1"
+    ],
+    "strPortraitImg"  : "ItmCanisterLargeLoose"
+  },
+  {
+    "strName" : "ItmCanisterLarge",
+    "strNameShort" : "Large Canister",
+    "strNameFriendly" : "Large Canister: Air Liquide \"Bretagne\" (Loose)",
+    "strDesc" : "A large cryo-assisted gas storage tank, developed by European corporation Air Liquide, one of the very few found outside Earth. It has been repurposed to serve space ships.",
+    "strItemDef" : "ItmCanisterLarge",
+    "strType"    : "Item",
+    "aInteractions" : [
+    ],
+    "aStartingConds" : [
+      "IsHiddenInv=1.0x1",
+      "IsInstalled=1.0x1",
+      "IsAirtight=1.0x1",
+      "IsSalvageValueHigh=1.0x1.0",
+      "IsSolid=1.0x1.0",
+      "IsVesselLarge=1.0x1",
+      "StatBasePrice=1.0x25420.0",
+      "StatGasMolN2=1.0x0.0001",
+      "StatGasPressureMax=1.0x41400.0",
+      "StatGasTemp=1.0x4.00",
+      "StatInstallProgressMax=1.0x800",
+      "StatUninstallProgressMax=1.0x800",
+      "StatVolume=1.0x21.1",
+      "StatMass=1.0x300.0",
+      "StatLiqHe=1.0x1304.0",
+      "IsGasMolChanged=1.0x1",
+      "StatDamageMax=1.0x40",
+      "IsMechanical=1.0x1",
+      "IsCategoryLifeSupport=1.0x1"
+    ],
+    "aUpdateCommands" : [
+      "Destructable,StatDamage,ACTMechDestroy,StatDamageMax,1.0"
+    ],
+    "aStartingCondRules"  : [
+      "DcGasTemp=1",
+      "DcGasPressure=1",
+      "DcGasPpCH4=1",
+      "DcGasPpCO=1",
+      "DcGasPpCO2=1",
+      "DcGasPpH2SO4=1",
+      "DcGasPpNH3=1",
+      "DcGasPpN2=1",
+      "DcGasPpO2=1",
+      "DcGasPpSmoke=1"
+    ],
+    "strPortraitImg"  : "ItmCanisterLarge",
+    "strAudioEmitter": "ItmCanisterLHe02Sound"
+  }
+]

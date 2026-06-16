@@ -1,0 +1,3 @@
+[
+  { "strName" : "IsVesselLarge", "strNameFriendly" : "Large Vessel", "strColor" : "Neutral", "strDesc"  : "is a Large Vessel.", "nDisplaySelf" : 2, "nDisplayOther" : 2, "fDuration" : 0.0, "bRemoveAll" : false}
+]

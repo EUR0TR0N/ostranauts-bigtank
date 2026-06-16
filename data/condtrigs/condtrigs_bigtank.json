@@ -1,0 +1,4 @@
+[
+  { "strName" : "TIsCanisterLargeUninstalled", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsVesselLarge" ], "aForbids" : [ "IsInstalled", "IsDamaged" ], "aTriggers" : [ ], "bAND" : true },
+  { "strName" : "TIsCanisterLargeInstalled", "strCondName" : "", "fChance" : 1.0, "fCount" : 1.0, "aReqs" : [ "IsVesselLarge", "IsInstalled" ], "aForbids" : [  ], "aTriggers" : [ ], "bAND" : true }
+]
